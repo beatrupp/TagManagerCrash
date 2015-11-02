@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23D52FCD1BE76E520065BEB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D52FCC1BE76E520065BEB6 /* main.m */; };
+		23D52FD01BE76E520065BEB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D52FCF1BE76E520065BEB6 /* AppDelegate.m */; };
+		23D52FD31BE76E520065BEB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D52FD21BE76E520065BEB6 /* ViewController.m */; };
+		23D52FD61BE76E520065BEB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D52FD41BE76E520065BEB6 /* Main.storyboard */; };
+		23D52FD81BE76E520065BEB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D52FD71BE76E520065BEB6 /* Assets.xcassets */; };
+		23D52FDB1BE76E520065BEB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D52FD91BE76E520065BEB6 /* LaunchScreen.storyboard */; };
+		23D52FE61BE76E530065BEB6 /* TagManagerCrash2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D52FE51BE76E530065BEB6 /* TagManagerCrash2Tests.m */; };
+		244F7182305F982990820371 /* libPods-TagManagerCrash2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8847A7C648320346CF612D4F /* libPods-TagManagerCrash2.a */; };
+		C753E4549A656307486DE076 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C753E1F0406F70C0D830D0A7 /* Podfile */; };
+		D7BEB8C169602B9382AA01CC /* libPods-TagManagerCrash2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CCDF9A9E13E4795FD140F4 /* libPods-TagManagerCrash2Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23D52FE21BE76E530065BEB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23D52FC01BE76E520065BEB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D52FC71BE76E520065BEB6;
+			remoteInfo = TagManagerCrash2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23D52FC81BE76E520065BEB6 /* TagManagerCrash2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagManagerCrash2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D52FCC1BE76E520065BEB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23D52FCE1BE76E520065BEB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23D52FCF1BE76E520065BEB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23D52FD11BE76E520065BEB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23D52FD21BE76E520065BEB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23D52FD51BE76E520065BEB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23D52FD71BE76E520065BEB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23D52FDA1BE76E520065BEB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23D52FDC1BE76E520065BEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D52FE11BE76E530065BEB6 /* TagManagerCrash2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagManagerCrash2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D52FE51BE76E530065BEB6 /* TagManagerCrash2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagManagerCrash2Tests.m; sourceTree = "<group>"; };
+		23D52FE71BE76E530065BEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CCDF9A9E13E4795FD140F4 /* libPods-TagManagerCrash2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagManagerCrash2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCC909F9AAA4150D3ACEA13 /* Pods-TagManagerCrash2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagManagerCrash2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagManagerCrash2/Pods-TagManagerCrash2.debug.xcconfig"; sourceTree = "<group>"; };
+		8847A7C648320346CF612D4F /* libPods-TagManagerCrash2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagManagerCrash2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D8ECF7BDF56384E8927A17 /* Pods-TagManagerCrash2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagManagerCrash2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagManagerCrash2Tests/Pods-TagManagerCrash2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B0518DB4B9E6B5C6E80C5B37 /* Pods-TagManagerCrash2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagManagerCrash2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagManagerCrash2Tests/Pods-TagManagerCrash2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C753E1F0406F70C0D830D0A7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C753E736D608AEDFBB02372D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		E9621E26098697F9CE2D313A /* Pods-TagManagerCrash2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagManagerCrash2.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagManagerCrash2/Pods-TagManagerCrash2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D52FC51BE76E520065BEB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244F7182305F982990820371 /* libPods-TagManagerCrash2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D52FDE1BE76E530065BEB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BEB8C169602B9382AA01CC /* libPods-TagManagerCrash2Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FA118FFE8A27A89742175A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CCC909F9AAA4150D3ACEA13 /* Pods-TagManagerCrash2.debug.xcconfig */,
+				E9621E26098697F9CE2D313A /* Pods-TagManagerCrash2.release.xcconfig */,
+				B0518DB4B9E6B5C6E80C5B37 /* Pods-TagManagerCrash2Tests.debug.xcconfig */,
+				A6D8ECF7BDF56384E8927A17 /* Pods-TagManagerCrash2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1AE165CDE745075A36331289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8847A7C648320346CF612D4F /* libPods-TagManagerCrash2.a */,
+				39CCDF9A9E13E4795FD140F4 /* libPods-TagManagerCrash2Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23D52FBF1BE76E520065BEB6 = {
+			isa = PBXGroup;
+			children = (
+				23D52FCA1BE76E520065BEB6 /* TagManagerCrash2 */,
+				23D52FE41BE76E530065BEB6 /* TagManagerCrash2Tests */,
+				23D52FC91BE76E520065BEB6 /* Products */,
+				C753E1F0406F70C0D830D0A7 /* Podfile */,
+				0FA118FFE8A27A89742175A9 /* Pods */,
+				1AE165CDE745075A36331289 /* Frameworks */,
+				C753E736D608AEDFBB02372D /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		23D52FC91BE76E520065BEB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23D52FC81BE76E520065BEB6 /* TagManagerCrash2.app */,
+				23D52FE11BE76E530065BEB6 /* TagManagerCrash2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23D52FCA1BE76E520065BEB6 /* TagManagerCrash2 */ = {
+			isa = PBXGroup;
+			children = (
+				23D52FCE1BE76E520065BEB6 /* AppDelegate.h */,
+				23D52FCF1BE76E520065BEB6 /* AppDelegate.m */,
+				23D52FD11BE76E520065BEB6 /* ViewController.h */,
+				23D52FD21BE76E520065BEB6 /* ViewController.m */,
+				23D52FD41BE76E520065BEB6 /* Main.storyboard */,
+				23D52FD71BE76E520065BEB6 /* Assets.xcassets */,
+				23D52FD91BE76E520065BEB6 /* LaunchScreen.storyboard */,
+				23D52FDC1BE76E520065BEB6 /* Info.plist */,
+				23D52FCB1BE76E520065BEB6 /* Supporting Files */,
+			);
+			path = TagManagerCrash2;
+			sourceTree = "<group>";
+		};
+		23D52FCB1BE76E520065BEB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23D52FCC1BE76E520065BEB6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23D52FE41BE76E530065BEB6 /* TagManagerCrash2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				23D52FE51BE76E530065BEB6 /* TagManagerCrash2Tests.m */,
+				23D52FE71BE76E530065BEB6 /* Info.plist */,
+			);
+			path = TagManagerCrash2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D52FC71BE76E520065BEB6 /* TagManagerCrash2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D52FEA1BE76E530065BEB6 /* Build configuration list for PBXNativeTarget "TagManagerCrash2" */;
+			buildPhases = (
+				5A3F3CFC870B71A94B861634 /* Check Pods Manifest.lock */,
+				23D52FC41BE76E520065BEB6 /* Sources */,
+				23D52FC51BE76E520065BEB6 /* Frameworks */,
+				23D52FC61BE76E520065BEB6 /* Resources */,
+				1F3F238715E6E3C9E311A743 /* Embed Pods Frameworks */,
+				7D274217A782A9B68091F2A5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagManagerCrash2;
+			productName = TagManagerCrash2;
+			productReference = 23D52FC81BE76E520065BEB6 /* TagManagerCrash2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23D52FE01BE76E530065BEB6 /* TagManagerCrash2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D52FED1BE76E530065BEB6 /* Build configuration list for PBXNativeTarget "TagManagerCrash2Tests" */;
+			buildPhases = (
+				4B37CC3B9D39516A5A74674E /* Check Pods Manifest.lock */,
+				23D52FDD1BE76E530065BEB6 /* Sources */,
+				23D52FDE1BE76E530065BEB6 /* Frameworks */,
+				23D52FDF1BE76E530065BEB6 /* Resources */,
+				D4919B4414C8C9FBF6AD3564 /* Embed Pods Frameworks */,
+				47ECD45187CD1F378CB9C244 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D52FE31BE76E530065BEB6 /* PBXTargetDependency */,
+			);
+			name = TagManagerCrash2Tests;
+			productName = TagManagerCrash2Tests;
+			productReference = 23D52FE11BE76E530065BEB6 /* TagManagerCrash2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23D52FC01BE76E520065BEB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Westwing;
+				TargetAttributes = {
+					23D52FC71BE76E520065BEB6 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					23D52FE01BE76E530065BEB6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 23D52FC71BE76E520065BEB6;
+					};
+				};
+			};
+			buildConfigurationList = 23D52FC31BE76E520065BEB6 /* Build configuration list for PBXProject "TagManagerCrash2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23D52FBF1BE76E520065BEB6;
+			productRefGroup = 23D52FC91BE76E520065BEB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D52FC71BE76E520065BEB6 /* TagManagerCrash2 */,
+				23D52FE01BE76E530065BEB6 /* TagManagerCrash2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D52FC61BE76E520065BEB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D52FDB1BE76E520065BEB6 /* LaunchScreen.storyboard in Resources */,
+				23D52FD81BE76E520065BEB6 /* Assets.xcassets in Resources */,
+				23D52FD61BE76E520065BEB6 /* Main.storyboard in Resources */,
+				C753E4549A656307486DE076 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D52FDF1BE76E530065BEB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F3F238715E6E3C9E311A743 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagManagerCrash2/Pods-TagManagerCrash2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47ECD45187CD1F378CB9C244 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagManagerCrash2Tests/Pods-TagManagerCrash2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B37CC3B9D39516A5A74674E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3F3CFC870B71A94B861634 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D274217A782A9B68091F2A5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagManagerCrash2/Pods-TagManagerCrash2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4919B4414C8C9FBF6AD3564 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagManagerCrash2Tests/Pods-TagManagerCrash2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D52FC41BE76E520065BEB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D52FD31BE76E520065BEB6 /* ViewController.m in Sources */,
+				23D52FD01BE76E520065BEB6 /* AppDelegate.m in Sources */,
+				23D52FCD1BE76E520065BEB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D52FDD1BE76E530065BEB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D52FE61BE76E530065BEB6 /* TagManagerCrash2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23D52FE31BE76E530065BEB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D52FC71BE76E520065BEB6 /* TagManagerCrash2 */;
+			targetProxy = 23D52FE21BE76E530065BEB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23D52FD41BE76E520065BEB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D52FD51BE76E520065BEB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23D52FD91BE76E520065BEB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D52FDA1BE76E520065BEB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23D52FE81BE76E530065BEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23D52FE91BE76E530065BEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23D52FEB1BE76E530065BEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCC909F9AAA4150D3ACEA13 /* Pods-TagManagerCrash2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagManagerCrash2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WW.TagManagerCrash2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23D52FEC1BE76E530065BEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9621E26098697F9CE2D313A /* Pods-TagManagerCrash2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagManagerCrash2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WW.TagManagerCrash2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23D52FEE1BE76E530065BEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0518DB4B9E6B5C6E80C5B37 /* Pods-TagManagerCrash2Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TagManagerCrash2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WW.TagManagerCrash2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagManagerCrash2.app/TagManagerCrash2";
+			};
+			name = Debug;
+		};
+		23D52FEF1BE76E530065BEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D8ECF7BDF56384E8927A17 /* Pods-TagManagerCrash2Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TagManagerCrash2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WW.TagManagerCrash2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagManagerCrash2.app/TagManagerCrash2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D52FC31BE76E520065BEB6 /* Build configuration list for PBXProject "TagManagerCrash2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D52FE81BE76E530065BEB6 /* Debug */,
+				23D52FE91BE76E530065BEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D52FEA1BE76E530065BEB6 /* Build configuration list for PBXNativeTarget "TagManagerCrash2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D52FEB1BE76E530065BEB6 /* Debug */,
+				23D52FEC1BE76E530065BEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D52FED1BE76E530065BEB6 /* Build configuration list for PBXNativeTarget "TagManagerCrash2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D52FEE1BE76E530065BEB6 /* Debug */,
+				23D52FEF1BE76E530065BEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23D52FC01BE76E520065BEB6 /* Project object */;
+}
